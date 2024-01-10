@@ -1,0 +1,14 @@
+package com.testing.cource;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ApplicationTests extends AbstractTestContainer {
+
+	@Test
+	void contextLoads() {
+		System.out.println();
+	}
+
+}
